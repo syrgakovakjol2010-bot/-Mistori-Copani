@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISTORI COMPANY | Разработка сайтов и ботов</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        /* Небольшой эффект увеличения для картинок работ */
+        .work-img:hover { transform: scale(1.02); transition: transform 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="logo.png" alt="MISTORI Logo" class="h-14 w-auto md:h-16">
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-medium text-gray-700">
+                <a href="#services" class="hover:text-blue-600 transition">Услуги</a>
+                <a href="#portfolio" class="hover:text-blue-600 transition">Работы</a>
+                <a href="#prices" class="hover:text-blue-600 transition">Цены</a>
+            </div>
+
+            <a href="https://t.me/MistoriCopanibot" target="_blank" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition font-medium shadow-lg flex items-center">
+                <i class="fab fa-telegram-plane mr-2"></i>Запустить бота
+            </a>
+        </div>
+    </nav>
+
+    <section class="py-24 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/circuit-board.png')]"></div>
+        
+        <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                Создаем цифровое будущее <br>
+                <span class="text-blue-400">вашего бизнеса</span>
+            </h1>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Профессиональная разработка сайтов и Telegram-ботов. 
+                IT-решения, которые приносят клиентов.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-5 justify-center">
+                <a href="https://wa.me/996500047576" target="_blank" class="bg-green-500 text-white px-8 py-4 rounded-xl shadow-lg hover:bg-green-600 transition text-lg font-bold flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-2xl"></i> Написать в WhatsApp
+                </a>
+                <a href="#portfolio" class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-xl hover:bg-white/20 transition text-lg font-bold flex items-center justify-center">
+                    Смотреть работы
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Что мы предлагаем</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl transition relative overflow-hidden">
+                    <div class="absolute top-0 right-0 -mt-4 -mr-4 text-blue-100 text-9xl opacity-50"><i class="fas fa-code"></i></div>
+                    <div class="relative z-10">
+                        <div class="w-16 h-16 bg-blue-600 text-white rounded-lg flex items-center justify-center text-3xl mb-6 shadow-lg">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Продающие сайты</h3>
+                        <p class="text-gray-600 leading-relaxed">Разрабатываем современные лендинги и многостраничные сайты с уникальным дизайном, которые превращают посетителей в клиентов.</p>
+                    </div>
+                </div>
+                
+                <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl transition relative overflow-hidden">
+                    <div class="absolute top-0 right-0 -mt-4 -mr-4 text-purple-100 text-9xl opacity-50"><i class="fas fa-robot"></i></div>
+                    <div class="relative z-10">
+                        <div class="w-16 h-16 bg-purple-600 text-white rounded-lg flex items-center justify-center text-3xl mb-6 shadow-lg">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Telegram-боты</h3>
+                        <p class="text-gray-600 leading-relaxed">Автоматизируем бизнес-процессы: боты для приёма заявок, интернет-магазины в Telegram, техподдержка 24/7.</p>
+                    </div>
+                </div>
+
+                 <div class="p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-xl transition relative overflow-hidden">
+                    <div class="absolute top-0 right-0 -mt-4 -mr-4 text-green-100 text-9xl opacity-50"><i class="fas fa-mobile"></i></div>
+                    <div class="relative z-10">
+                        <div class="w-16 h-16 bg-green-600 text-white rounded-lg flex items-center justify-center text-3xl mb-6 shadow-lg">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Комплексный подход</h3>
+                        <p class="text-gray-600 leading-relaxed">Связываем сайт с ботом и CRM-системой. Настраиваем аналитику и помогаем с запуском рекламы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Примеры наших работ</h2>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Мы создаем чистый, современный и функциональный дизайн для любых задач.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="group rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+                    <div class="overflow-hidden">
+                        <img src="work1.png" alt="Пример сайта Charity" class="work-img w-full h-auto object-cover">
+                    </div>
+                    <div class="p-6 bg-gray-800">
+                        <h3 class="text-xl font-bold mb-2">Проект "Charity Foundation"</h3>
+                        <p class="text-gray-400">Адаптивный дизайн лендинга для некоммерческой организации.</p>
+                    </div>
+                </div>
+
+                <div class="group rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+                     <div class="overflow-hidden">
+                        <img src="work2.png" alt="Пример сайта Modus" class="work-img w-full h-auto object-cover">
+                    </div>
+                    <div class="p-6 bg-gray-800">
+                        <h3 class="text-xl font-bold mb-2">Корпоративный портал "Modus"</h3>
+                        <p class="text-gray-400">Многостраничный сайт с каталогом услуг и современным UI/UX.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="text-center mt-12">
+                <a href="https://wa.me/996500047576" target="_blank" class="inline-block border-2 border-blue-500 text-blue-400 font-bold px-8 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition">
+                    Хочу такой же дизайн
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-gray-800">Тарифные планы</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                
+                <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition border border-gray-200 flex flex-col">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-2">Сайт-визитка</h3>
+                        <p class="text-gray-500 mb-6">Быстрый старт для малого бизнеса</p>
+                        <p class="text-5xl font-extrabold text-blue-600 mb-2">15 000 <span class="text-xl font-medium text-gray-500">сом</span></p>
+                    </div>
+                    <ul class="space-y-4 mb-8 text-gray-600 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i> 1 Страница (Лендинг)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i> Адаптивная вёрстка</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i> Форма заявки на WhatsApp</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3 text-xl"></i> Базовая SEO-настройка</li>
+                    </ul>
+                    <a href="https://wa.me/996500047576?text=Здравствуйте,%20хочу%20заказать%20сайт-визитку" target="_blank" class="block w-full py-4 rounded-xl border-2 border-blue-600 text-blue-600 text-center font-bold hover:bg-blue-600 hover:text-white transition text-lg">
+                        Выбрать тариф
+                    </a>
+                </div>
+
+                <div class="bg-gradient-to-b from-blue-600 to-blue-800 rounded-3xl p-8 shadow-2xl relative transform md:-translate-y-6 text-white flex flex-col">
+                    <span class="absolute top-0 right-8 bg-yellow-400 text-blue-900 px-4 py-1 rounded-b-lg text-sm font-extrabold uppercase tracking-wider">Популярный выбор</span>
+                    <div class="mb-8 mt-4">
+                        <h3 class="text-2xl font-bold mb-2">Бизнес + Бот</h3>
+                        <p class="text-blue-100 mb-6">Максимальная автоматизация</p>
+                        <p class="text-5xl font-extrabold mb-2">35 000 <span class="text-xl font-medium text-blue-200">сом</span></p>
+                    </div>
+                    <ul class="space-y-4 mb-8 text-blue-50 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-yellow-400 mr-3 text-xl"></i> Многостраничный сайт</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-yellow-400 mr-3 text-xl"></i> <b>Telegram-бот</b> приёма заявок</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-yellow-400 mr-3 text-xl"></i> Удобная админ-панель</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-yellow-400 mr-3 text-xl"></i> Помощь с хостингом и доменом</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-yellow-400 mr-3 text-xl"></i> Месяц поддержки бесплатно</li>
+                    </ul>
+                    <a href="https://wa.me/996500047576?text=Здравствуйте,%20интересует%20тариф%20Бизнес%20с%20ботом" target="_blank" class="block w-full py-4 rounded-xl bg-yellow-400 text-blue-900 text-center font-bold hover:bg-yellow-300 transition text-lg shadow-lg">
+                        Заказать комплекс
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition border border-gray-200 flex flex-col">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-2">Индивидуальный</h3>
+                        <p class="text-gray-500 mb-6">Для сложных задач</p>
+                        <p class="text-4xl font-bold mb-2 text-gray-800">Договорная</p>
+                    </div>
+                    <ul class="space-y-4 mb-8 text-gray-600 flex-grow">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-3 text-xl"></i> Интернет-магазины</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-3 text-xl"></i> Уникальный UI/UX дизайн</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-3 text-xl"></i> Сложные интеграции (API)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-3 text-xl"></i> Разработка под ключ</li>
+                    </ul>
+                    <a href="https://t.me/MistoriCopanibot" target="_blank" class="block w-full py-4 rounded-xl bg-gray-100 text-gray-700 text-center font-bold hover:bg-gray-200 transition text-lg">
+                        Обсудить проект
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-blue-600 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 text-white">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Готовы обсудить ваш проект?</h2>
+            <p class="text-xl text-blue-100 mb-10">Свяжитесь с нами любым удобным способом. Мы ответим в течение 15 минут.</p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <a href="https://wa.me/996500047576" target="_blank" class="group flex items-center gap-4 bg-white text-blue-900 px-8 py-5 rounded-2xl hover:shadow-2xl transition w-full md:w-auto justify-start transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-green-500 text-white rounded-full flex items-center justify-center text-3xl group-hover:scale-110 transition">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="text-left">
+                        <div class="text-sm font-medium opacity-70">Написать в WhatsApp</div>
+                        <div class="font-extrabold text-2xl">0500 047 576</div>
+                    </div>
+                </a>
+
+                <a href="https://t.me/MistoriCopanibot" target="_blank" class="group flex items-center gap-4 bg-blue-800 text-white px-8 py-5 rounded-2xl hover:shadow-2xl transition w-full md:w-auto justify-start transform hover:-translate-y-1 border-2 border-blue-400/30 hover:border-blue-400">
+                    <div class="w-14 h-14 bg-blue-500 text-white rounded-full flex items-center justify-center text-3xl group-hover:scale-110 transition">
+                        <i class="fab fa-telegram-plane"></i>
+                    </div>
+                    <div class="text-left">
+                        <div class="text-sm font-medium opacity-70">Запустить бота</div>
+                        <div class="font-extrabold text-2xl">@MistoriCopanibot</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-10 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center">
+                <img src="logo.png" alt="MISTORI" class="h-8 w-auto mr-3 opacity-70">
+                <span class="text-sm">© 2026 MISTORI COMPANY. Все права защищены.</span>
+            </div>
+            <div class="text-sm flex items-center">
+                <i class="fas fa-map-marker-alt mr-2 text-blue-500"></i> Кыргызстан, г. Кара-Балта
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
